@@ -1,202 +1,162 @@
-CO1 – Linear Data Structures
-Assignment 1 (2 Hours)
-
-Problem Statement:
-Write a Python program to store marks scored in the subject “Fundamentals of Data Structure” by N students in the class.
-Write functions to compute the following:
-
-The average score of the class
-
-Highest and lowest score of the class
-
-Count of students who were absent for the test
-
-Display the mark with the highest frequency
-
-After each operation, determine the Time and Space Complexity.
-
-Assignment 2
-
-Problem Statement:
-In the Second Year Computer Engineering class:
-
-Group A students play Cricket
-
-Group B students play Badminton
-
-Group C students play Football
-
-Write a Python program using functions to compute:
-
-List of students who play both cricket and badminton
-
-List of students who play either cricket or badminton but not both
-
-Number of students who play neither cricket nor badminton
-
-Number of students who play cricket and football but not badminton
-
-⚙️ CO2 – Searching and Sorting
-Assignment 3
-
-Problem Statement:
-Write a Python program to store roll numbers of students (in random order) who attended training programs.
-Write functions to search whether a particular student attended the training program or not using:
-
-Linear Search
-
-Sentinel Search
-
-Assignment 4
-
-Problem Statement:
-Write a Python program to store roll numbers of students (in sorted order) who attended training programs.
-Write functions to search whether a particular student attended the program or not using:
-
-Binary Search
-
-Fibonacci Search
-
-Assignment 5
-
-Problem Statement:
-Write a Python program to store the First Year percentages of students in an array.
-Write functions to sort the array of floating-point numbers in ascending order using:
-
-Selection Sort
-
-Bubble Sort
-Display top five scores after sorting.
-
-Assignment 6
-
-Problem Statement:
-Write a Python program to store the First Year percentages of students in an array.
-Write a function to sort the array in ascending order using Quick Sort and display top five scores.
-
-Assignment 7
-
-Problem Statement:
-Write a Python program to sort a list of names based on their length using Bucket Sort.
-Example Input:
-["John", "Alexander", "Paul", "Victoria", "Mary", "Charles", "Elizabeth"]
-
-🔗 CO3 – Linked Lists
-Assignment 8
-
-Problem Statement:
-The Department of Computer Engineering has a student club named “Pinnacle Club”.
-Students of 2nd, 3rd, and Final Year can become members.
-
-The first node is reserved for the President
-
-The last node is reserved for the Secretary
-
-Write a C++ program using a Singly Linked List to:
-
-Add and delete members (including President or Secretary)
-
-Compute total number of members
-
-Display all members
-
-Concatenate two lists (for two divisions)
-
-Assignment 9
-
-Problem Statement:
-A bookstore maintains a list of books with details:
-
-Book ID (unique)
-
-Title
-
-Author
-
-Price
-
-Publication Year
-
-Use a Doubly Linked List and implement functions to:
-
-Add Book
-
-Remove Book (by Book ID)
-
-Search Book (by Book ID)
-
-Update Book details (e.g., price)
-
-Display all books in order of insertion
-
-Find total number of books
-
-🧱 CO4 – Stack
-Assignment 10
-
-Problem Statement:
-In programming, syntax errors often occur due to unbalanced delimiters such as (), {}, [].
-Write a C++ program using a Stack to check whether a given expression is well-parenthesized or not.
-
-Assignment 11
-
-Problem Statement:
-Implement the Undo and Redo functionality using a stack.
-Each operation (like typing or deleting a character) can be undone or redone.
-
-Implement the following methods:
-
-undo() – Undo the last operation
-
-redo() – Redo the last undone operation
-
-addOperation(op) – Add a new operation to the stack
-
-⚙️ CO5 – Queue
-Assignment 12
-
-Problem Statement:
-Queues are widely used in programming.
-Example: An operating system’s job queue (processed in order of arrival).
-Write a C++ program to simulate a job queue with functions to:
-
-Add job
-
-Delete job
-
-Assignment 13
-
-Problem Statement:
-A printer handles multiple print jobs from different users.
-Print jobs must be processed in order but in a round-robin manner so no user dominates.
-
-Design a Circular Queue to manage print jobs.
-Implement functions:
-
-enqueue(job) – Add a new job
-
-dequeue() – Process and remove front job
-
-front() – Show job at front
-
-isEmpty() – Check if queue is empty
-
-isFull() – Check if queue is full
-
-printJobCount() – Show total jobs in queue
-
-Assignment 14
-
-Problem Statement:
-A Double-Ended Queue (Deque) allows insertion and deletion from both ends.
-Write a C++ program using a one-dimensional array to simulate deque with functions to:
-
-Add element (front or rear)
-
-Delete element (front or rear)
-
-Assignment 15
-
-Problem Statement:
-Given a Singly Linked List containing integers,
-write a C++ program to reverse the order of nodes using a Stack.
+## 🧩 Group A — Linear Data Structures
+
+### **Assignment 1 — Marks Analysis (Python)**
+**Topic:** Store and analyze marks scored in “Fundamentals of Data Structure”  
+**Tasks:**
+1. Compute **average score** of class  
+2. Find **highest and lowest score**  
+3. Count **students absent** for the test  
+4. Display **mark with highest frequency**  
+
+🔹 After each operation, determine **Time** and **Space Complexity**
+
+---
+
+### **Assignment 2 — Sports Sets (Python)**
+**Scenario:**  
+Group A students play **Cricket**,  
+Group B students play **Badminton**,  
+Group C students play **Football**
+
+**Tasks:**
+1. Students who play **both Cricket and Badminton**  
+2. Students who play **either Cricket or Badminton but not both**  
+3. Number of students who play **neither Cricket nor Badminton**  
+4. Students who play **Cricket and Football but not Badminton**
+
+---
+
+## 🔍 Group B — Searching and Sorting
+
+### **Assignment 3 — Searching (Linear & Sentinel Search)**
+**Tasks:**
+- Store roll numbers of students (random order)  
+- Search whether a student attended training using:  
+  - **Linear Search**  
+  - **Sentinel Search**
+
+---
+
+### **Assignment 4 — Searching (Binary & Fibonacci Search)**
+**Tasks:**
+- Store roll numbers in **sorted order**  
+- Search using:  
+  - **Binary Search**  
+  - **Fibonacci Search**
+
+---
+
+### **Assignment 5 — Sorting (Selection & Bubble Sort)**
+**Tasks:**
+- Store first-year student **percentages**  
+- Sort in **ascending order** using:  
+  1. **Selection Sort**  
+  2. **Bubble Sort**  
+- Display **Top 5 Scores**
+
+---
+
+### **Assignment 6 — Sorting (Quick Sort)**
+**Tasks:**
+- Store first-year student **percentages**  
+- Sort using **Quick Sort**  
+- Display **Top 5 Scores**
+
+---
+
+### **Assignment 7 — Sorting (Bucket Sort by Name Length)**
+**Input Example:**  
+`["John", "Alexander", "Paul", "Victoria", "Mary", "Charles", "Elizabeth"]`  
+
+**Task:** Sort names based on their **length** using **Bucket Sort**
+
+---
+
+## 🔗 Group C — Linked Lists
+
+### **Assignment 8 — Pinnacle Club (Singly Linked List in C++)**
+**Scenario:**  
+Manage club members where:  
+- First node → **President**  
+- Last node → **Secretary**
+
+**Tasks:**
+1. Add or delete members, including **President/Secretary**  
+2. Compute **total number of members**  
+3. Display all members  
+4. **Concatenate** two division lists
+
+---
+
+### **Assignment 9 — Bookstore Management (Doubly Linked List in C++)**
+**Attributes:**  
+- Book ID  
+- Title  
+- Author  
+- Price  
+- Publication Year  
+
+**Tasks:**
+1. **Add Book**  
+2. **Remove Book** (by Book ID)  
+3. **Search Book** (by Book ID)  
+4. **Update Book Details**  
+5. **Display All Books**  
+6. **Find Total Books**
+
+---
+
+## 🧱 Group D — Stack
+
+### **Assignment 10 — Balanced Parentheses**
+**Task:**  
+Write a C++ program using **Stack** to check whether an expression is **well-parenthesized**  
+(delimiters: `()`, `{}`, `[]`)
+
+---
+
+### **Assignment 11 — Undo & Redo Functionality**
+**Task:**  
+Implement Undo/Redo feature using **Stack**  
+**Functions:**  
+- `addOperation(op)`  
+- `undo()`  
+- `redo()`
+
+---
+
+## 🌀 Group E — Queue
+
+### **Assignment 12 — Job Queue Simulation**
+**Scenario:**  
+Operating System job queue (FIFO order, no priorities)  
+**Tasks:**  
+- Add job  
+- Delete job from queue
+
+---
+
+### **Assignment 13 — Printer Queue (Circular Queue)**
+**Scenario:**  
+Multiple users send print jobs in a **Round Robin** fashion  
+**Functions:**  
+- `enqueue(job)`  
+- `dequeue()`  
+- `front()`  
+- `isEmpty()`  
+- `isFull()`  
+- `printJobCount()`
+
+---
+
+### **Assignment 14 — Deque Simulation**
+**Scenario:**  
+Double-ended Queue (Deque) — insert/delete at **both ends**  
+**Task:**  
+Map deque into **1D array** and simulate using C++ functions
+
+---
+
+### **Assignment 15 — Reverse Linked List using Stack**
+**Task:**  
+Given a singly linked list of integers, **reverse the order** using a **Stack**
